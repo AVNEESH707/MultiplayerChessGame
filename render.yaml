@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: MultiplayerChessGame-2
+    name: frontend
     rootDir: client
     buildCommand: npm install && npm run build
     staticPublishPath: build
@@ -9,5 +9,3 @@ services:
         value: production
       - key: REACT_APP_BACKEND_URL
         value: https://multiplayerchessgame-z194.onrender.com
-
-
